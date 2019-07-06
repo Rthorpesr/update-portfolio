@@ -364,12 +364,12 @@ label {
   Background image set
 ---------------------------------------*/
 .bg-1 { background: url(img/bg/1.html);}
-.bg-2 { background: url(img/bg/service-bg.jpg);}
+.bg-2 { background: url(img/bg/service-bg.jpg) no-repeat;}
 .bg-3 { background: url(img/bg/8.jpg);}
 .bg-4 { background: url(img/bg/4.jpg);}
 .bg-5 { background: url(img/bg/3.jpg);}
 .bg-6 { background: url(img/bg/s.jpg);}
-.blogbg { background: url(img/blog/bg.jpg);}
+.blogbg { background: url(img/blog/bg.jpg) no-repeat;}
 .static-dotted-bg {
   background: rgba(0, 0, 0, 0) url("img/slider/1.jpg");
 }
@@ -2952,15 +2952,26 @@ pre {
 .social-bookmark > li + li {
   margin-left: 5px;
 }
-.social-bookmark > li .facebook {
-  background-color: #3B5998;
-}
-.social-bookmark > li .twitter {
-  background-color: #00ACEE;
-}
 .social-bookmark > li .linkedin {
   background-color: #3B5998;
 }
+
+.social-bookmark > li .stack-overflow {
+  background-color: rgb(253, 103, 16);
+}
+
+.social-bookmark > li .github {
+  background-color: #000b0f;
+}
+
+.social-bookmark > li .facebook {
+  background-color: #3B5998;
+}
+
+.social-bookmark > li .twitter {
+  background-color: #00ACEE;
+}
+
 .social-bookmark > li .youtube {
   background-color: #007bb6;
 }
